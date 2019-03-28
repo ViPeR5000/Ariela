@@ -24,9 +24,9 @@
     <string name="location_enable_text">Habilitar Localização</string>
     <string name="wifi_enable_text">Habilitar Wifi</string>
     <string name="wifi_state_connected">Ligado</string>
-    <string name="wifi_state_connecting">CONEXÃO</string>
+    <string name="wifi_state_connecting">ligação</string>
     <string name="wifi_state_disconnected">Desligado</string>
-    <string name="wifi_state_disconnecting">Desligar</string>
+    <string name="wifi_state_disconnecting">A Desligar</string>
     <string name="wifi_choose_message">Escolha a sua rede Wi-Fi doméstica onde o servidor Home Assistant está a ser executado. Este será utilizado posteriormente por esta aplicação para saber se a rede atualmente ligada é a rede doméstica ou não. Deslize para baixo para atualizar a lista de redes Wi-Fi se não vir a sua rede.</string>
     <string name="searching_wifi_networks">Procurar redes Wi-Fi...</string>
     <string name="home_text">CASA</string>
@@ -56,8 +56,8 @@
     <string name="server_not_running_text">Falha ao conectar ao Home Assistant Server</string>
     <string name="air_pressure_text">Pressão de ar: </string>
     <string name="humidity_text">Humidade: </string>
-    <string name="wind_speed_text">Gasto de vento: </string>
-    <string name="choose_sensor_text">Escolher item</string>
+    <string name="wind_speed_text">Velocidade do vento: </string>
+    <string name="choose_sensor_text">Escolher sensor</string>
     <string name="no_sensors_messages">Não podemos adicionar o widget do sensor porque não conseguimos encontrar sensores configurados.</string>
     <string name="remove_ads">Remover Anúncios</string>
     <string name="no_zone_message">Não conseguimos encontrar uma entidade de zona na sua configuração de Home Assistant. Por favor verifique a sua configuração.</string>
@@ -88,7 +88,7 @@
     <string name="setting_webui_summary">Quando esta opção estiver ativada, a Web UI será usada em vez das exibições nativas do Android.</string>
     <string name="setting_webui_title">Web UI</string>
 
-    <string name="setting_autoreconnect_summary">Quando esta opção estiver ativada, a Ariela tentará restabelecer a conexão a cada 10 segundos, caso tenha sido perdida anteriormente.</string>
+    <string name="setting_autoreconnect_summary">Quando esta opção estiver ativada, a Ariela tentará restabelecer a ligação a cada 10 segundos, caso tenha sido perdida anteriormente.</string>
     <string name="setting_autoreconnect_title">Reconectar automaticamente</string>
 
     <string name="settings_permanent_notification_title">Notificação permanente</string>
@@ -380,9 +380,7 @@
     <string name="number_of_columns_cards">Colunas de Cartões</string>
     <string name="number_of_columns_cards_info">Escolha quantas colunas serão as cartas exibidas.</string>
 
-    <string name="debug_enabled_message">O modo de depuração foi ativado. Reinicie o aplicativo e reproduza o problema encontrado. Depois disso, para enviar logs, use a função de contato da Ariela e escolha seu aplicativo de e-mail. Os registros devem ser adicionados automaticamente. Se isso não acontecer, no seu telefone você encontrará um arquivo chamado \'ariela_logfile.log\'. Por favor, envie-me esse arquivo para o endereço de e-mail: \'micro.criss.dev@gmail.com''.
-
-Traduzido com www.DeepL.com/Translator</string>
+    <string name="debug_enabled_message">O modo de depuração foi ativado. Reinicie o aplicativo e reproduza o problema encontrado. Depois disso, para enviar logs, use a função de contato da Ariela e escolha seu aplicativo de e-mail. Os registros devem ser adicionados automaticamente. Se isso não acontecer, no seu telefone encontrará um arquivo chamado \'ariela_logfile.log\'. Por favor, envie-me esse arquivo para o endereço de e-mail: \'micro.criss.dev@gmail.com''.</string>
     <string name="picture_text">Imagem</string>
 
     <string name="create_notification">Criar Notificação</string>
@@ -406,7 +404,7 @@ Traduzido com www.DeepL.com/Translator</string>
     <string name="please_enter_wifi_name">Por favor introduza um nome WiFi válido.</string>
     <string name="local_ip_address">Endereço de IP Home Assistente</string>
     <string name="local_ip_address_msg">Por favor, digite o endereço IP do Home Assistant. Se isso não estiver disponível no momento e você puder acessar seu servidor fora da rede, também poderá colocar esse endereço.</string>
-    <string name="check_connection_text">Verficar conexão</string>
+    <string name="check_connection_text">Verficar ligação</string>
     <string name="external_ip_address_msg">Digite o endereço IP externo do Home Assistant IP. Se você não está expondo o seu servidor através da internet, use o botão "Skip\" para continuar.</string>
     <string name="credentials_message">Por favor, digite seu nome de usuário e senha. Se estiver usando o Home Assistant 0.78 ou mais antigo, pode deixar o nome de usuário vazio para fazer o login via API_PASSWORD. Se tiver algum problema ao fazer o login ou usar 2FA, por favor use o login na web.</string>
     <string name="home_wifi_network_choose">Escolha da rede WiFi</string>
@@ -432,11 +430,11 @@ Traduzido com www.DeepL.com/Translator</string>
 
     <string name="local_mqtt_address">Endereço MQTT local e porta</string>
     <string name="external_mqtt_address">Endereço e porta externa MQTT</string>
-    <string name="mqtt_connection_succeeded">MQTT conexão bem sucedida</string>
+    <string name="mqtt_connection_succeeded">MQTT ligação bem sucedida</string>
     <string name="mqtt_connection_failed">MQTT a ligação falhou. Por favor, verifique os dados introduzidos e tente novamente.</string>
     <string name="mqtt_connection_external_failed">MQTT a ligação ao IP externo falhou. Por favor, verifique os dados introduzidos e tente novamente.</string>
 
-    <string name="mqtt_setup_address_message">   Se não tem acesso à sua instância de rede local, também pode colocar o IP externo no local. Se não quer se conectar ao MQTT quando não está em casa, deixe a entrada de IP externo em branco. Se está usando conexão SSL, o endereço IP deve começar com "ssl:///\" ao invés de "tcp://\/".</string>
+    <string name="mqtt_setup_address_message">   Se não tem acesso à sua instância de rede local, também pode colocar o IP externo no local. Se não quer se conectar ao MQTT quando não está em casa, deixe a entrada de IP externo em branco. Se está usando ligação SSL, o endereço IP deve começar com "ssl:///\" ao invés de "tcp://\/".</string>
     <string name="back_camera">Câmera traseira</string>
     <string name="back_camera_summary">Envie fotos da câmera traseira</string>
 
@@ -453,11 +451,11 @@ Traduzido com www.DeepL.com/Translator</string>
     <string name="tts_text">Texto para discurso </string>
     <string name="tts_mqtt_summary">Ative esta opção para que o seu telefone converta texto em voz</string>
 
-    <string name="server_connection_text">Conexão do servidor</string>
+    <string name="server_connection_text">ligação do servidor</string>
     <string name="server_setting_read_timeout_title">Tempo de leitura</string>
     <string name="server_setting_read_timeout_summary">Escolha o valor de timeout ao ler dados da tomada.</string>
 
-    <string name="server_setting_connect_timeout_title">Conexão timeout</string>
+    <string name="server_setting_connect_timeout_title">ligação timeout</string>
     <string name="server_setting_connect_timeout_summary">Escolha o valor de timeout quando tentar ligar à tomada.</string>
 
     <string name="alarm_text">Alarme</string>
@@ -484,8 +482,8 @@ Traduzido com www.DeepL.com/Translator</string>
     <string name="force_vertical_stack">Comportamento vertical da força</string>
     <string name="force_vertical_summary">Quando esta opção estiver ativada, os cartões Horizontal Stack se comportarão como os verticais</string>
 
-    <string name="bluetooth_headphone">Fones de ouvido Bluetooth</string>
-    <string name="bluetooth_headphone_summary">Enviar informações sobre o dispositivo conectado ao fone de ouvido Bluetooth</string>
+    <string name="bluetooth_headphone">Auriculares Bluetooth</string>
+    <string name="bluetooth_headphone_summary">Enviar informações sobre o dispositivo conectado ao auricular Bluetooth</string>
 
     <string name="bluetooth_a2dp">Mídia Bluetooth</string>
     <string name="bluetooth_a2dp_summary">Enviar informações sobre o dispositivo ligado através de Bluetooth Media (A2DP)</string>
@@ -495,6 +493,6 @@ Traduzido com www.DeepL.com/Translator</string>
     <string name="start_app_update">Iniciar após a atualização</string>
     <string name="start_app_update_summary">Início automático da Ariela quando a aplicação for atualizada.</string>
 
-    <string name="logout_text_info">Tens a certeza que vais sair? As informações da conexão atual serão apagadas.</string>
+    <string name="logout_text_info">Tens a certeza que vais sair? As informações da ligação atual serão apagadas.</string>
     <string name="exit_app_text_info">Tens a certeza que vais sair da Ariela?</string>
 </resources>
