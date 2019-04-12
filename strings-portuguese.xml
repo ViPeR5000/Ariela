@@ -186,7 +186,7 @@
     <string name="device_tracker_period_summary">Escolha o intervalo de tempo em que as atualizações de local devem ser enviadas</string>
 
     <string name="web_login_text">Web Login</string>
-    <string name="please_wait_text">Por favor agurade...</string>
+    <string name="please_wait_text">Por favor aguarde...</string>
     <string name="title_activity_map_viewer">Mapa</string>
 
     <string name="hours_ago_text">%d horas atrás</string>
@@ -197,7 +197,7 @@
 
     <string name="seconds_ago_text">%d segundos atrás</string>
     <string name="config_validation_text">Validação de configuração</string>
-    <string name="config_valid_message_text">Valide sua configuração se você recentemente fez algumas mudanças em sua configuração e quer ter certeza de que tudo é válido</string>
+    <string name="config_valid_message_text">Valide sua configuração se recentemente fez algumas mudanças em sua configuração e quer ter certeza de que tudo é válido</string>
     <string name="check_config_text">Verificar configuração</string>
     <string name="config_valid_text">Configuração valida</string>
     <string name="config_invalid_text">Configuração invalida</string>
@@ -493,6 +493,6 @@
     <string name="start_app_update">Iniciar após a atualização</string>
     <string name="start_app_update_summary">Início automático da Ariela quando a aplicação for atualizada.</string>
 
-    <string name="logout_text_info">Tens a certeza que vais sair? As informações da ligação atual serão apagadas.</string>
+    <string name="logout_text_info">Tens a certeza que vais sair? Os dados da ligação serão apagadas.</string>
     <string name="exit_app_text_info">Tens a certeza que vais sair da Ariela?</string>
 </resources>
