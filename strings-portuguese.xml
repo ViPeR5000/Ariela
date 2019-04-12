@@ -17,7 +17,7 @@
     <string name="connection_server_failed_splash">Falha ao ligar ao servidor Home Assistant. Pode tentar novamente ligar ou configurar novamente o servidor. O que gostaria de fazer?</string>
     <string name="server_not_configured_text">Servidor não configurado</string>
     <string name="server_not_configured_message_text">O Home Assistant ainda não está configurado. Gostaria de o configurar?</string>
-    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_dashboard">Painel</string>
     <string name="navigation_drawer_open">Abrir janela de navegação</string>
     <string name="navigation_drawer_close">Fechar janela de navegação</string>
     <string name="action_settings">Definições</string>
